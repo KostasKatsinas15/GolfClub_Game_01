@@ -1,11 +1,9 @@
 using UnityEngine;
-
 public class ClubController : MonoBehaviour
 {
     private Vector3 mOffset;
     private float mZCoord;
 
-    [SerializeField] private Transform club;
     private Vector3 controlPoinInitPosition;
 	private void Start()
 	{
