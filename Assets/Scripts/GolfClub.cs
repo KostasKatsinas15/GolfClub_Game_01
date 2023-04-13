@@ -11,6 +11,7 @@ public class GolfClub : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
+        Cursor.visible = false;
     }
 
     private void Update()
